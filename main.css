@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body_container {
+    border: 2.5px solid green;
+    margin: 2rem 9rem;
+    padding-top: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: url('hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 4rem;
+    height: 22rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 4rem;
+    font-size: 1.3rem;
+}
+
+h1 {
+    margin: -7rem 20rem;
+    color: #fff;
+    border: 2px solid white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.main_content {
+    display: flex;
+    margin: 11rem 5.7rem;
+    padding: 1rem 2.7rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+p {
+    padding: 0 2rem;
+}
+
+.box2 {
+    border: 1px solid green;
+    margin: -7rem 5rem -8rem 5rem;
+    height: 10rem;
+}
+
+.image {
+    margin: 12rem 20rem 4rem 32rem;
+}
+
+.line1 {
+    width: 7px;
+    height: 11rem;
+    background: green;
+    margin: -5rem 10rem;
+}
+
+.line2 {
+    width: 5px;
+    height: 13rem;
+    background: green;
+    margin: -14rem 6rem;
+}
+
+.line3 {
+    width: 2px;
+    height: 13rem;
+    background: green;
+    margin: -17rem 8rem;
+}
