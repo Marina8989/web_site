@@ -5,7 +5,7 @@
 }
 
 .body_container {
-    border: 2.5px solid green;
+    border: 2.5px solid #F08080;
     margin: 2rem 9rem;
     padding-top: 3rem;
 }
@@ -13,7 +13,7 @@
 nav {
     display: flex;
     justify-content: center;
-    background-image: url('hero.jpg');
+    background-image: url('img1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     padding: 4rem 4rem;
@@ -22,15 +22,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #FFEFD5;
     padding: 0 4rem;
     font-size: 1.3rem;
 }
 
 h1 {
     margin: -7rem 20rem;
-    color: #fff;
-    border: 2px solid white;
+    color: #FFEFD5;
+    border: 2px solid #FFEFD5;
     text-align: center;
     padding: 1rem 0;
     font-size: 2.5rem;
@@ -38,13 +38,14 @@ h1 {
 
 .main_content {
     display: flex;
-    margin: 11rem 5.7rem;
-    padding: 1rem 2.7rem;
+    margin: 13rem 5.7rem;
+    padding: 2rem 2.7rem;
+    color: rgb(67, 67, 67);
 }
 
 h2 {
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.7rem;
 }
 
 p {
@@ -52,32 +53,34 @@ p {
 }
 
 .box2 {
-    border: 1px solid green;
+    border: 1px solid #FFE4E1;
     margin: -7rem 5rem -8rem 5rem;
     height: 10rem;
 }
 
 .image {
     margin: 12rem 20rem 4rem 32rem;
+    height: 500px;
+    width: 580px;
 }
 
 .line1 {
     width: 7px;
-    height: 11rem;
-    background: green;
+    height: 15rem;
+    background: #F08080;
     margin: -5rem 10rem;
 }
 
 .line2 {
     width: 5px;
-    height: 13rem;
-    background: green;
-    margin: -14rem 6rem;
+    height: 12rem;
+    background: #FFEFD5;
+    margin: -16rem 6rem;
 }
 
 .line3 {
     width: 2px;
     height: 13rem;
-    background: green;
+    background: #E9967A;
     margin: -17rem 8rem;
 }
