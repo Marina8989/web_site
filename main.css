@@ -117,3 +117,17 @@ p {
     font-size: 2rem;
     padding-bottom: 30px;
 }
+
+.pictures {
+    display: flex;
+}
+
+.pictures img {
+    width: 380px;
+    height: 300px;
+    padding: 3rem 2rem;
+}
+
+.img1 {
+    padding-left: 5rem;
+}
