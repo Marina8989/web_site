@@ -5,7 +5,7 @@
 }
 
 .body_container {
-    border: 2.5px solid #F08080;
+    border: 2.5px solid #f08080;
     margin: 2rem 9rem;
     padding-top: 3rem;
 }
@@ -13,7 +13,7 @@
 nav {
     display: flex;
     justify-content: center;
-    background-image: url('img1.jpg');
+    background-image: url("img1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     padding: 4rem 4rem;
@@ -22,15 +22,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #FFEFD5;
+    color: #ffefd5;
     padding: 0 4rem;
     font-size: 1.3rem;
 }
 
 h1 {
     margin: -7rem 20rem;
-    color: #FFEFD5;
-    border: 2px solid #FFEFD5;
+    color: #ffefd5;
+    border: 2px solid #ffefd5;
     text-align: center;
     padding: 1rem 0;
     font-size: 2.5rem;
@@ -41,6 +41,7 @@ h1 {
     margin: 13rem 5.7rem;
     padding: 2rem 2.7rem;
     color: rgb(67, 67, 67);
+    background: #d39a9a;
 }
 
 h2 {
@@ -53,7 +54,7 @@ p {
 }
 
 .box2 {
-    border: 1px solid #FFE4E1;
+    border: 1px solid #ffe4e1;
     margin: -7rem 5rem -8rem 5rem;
     height: 10rem;
 }
@@ -67,20 +68,33 @@ p {
 .line1 {
     width: 7px;
     height: 15rem;
-    background: #F08080;
+    background: #f08080;
     margin: -5rem 10rem;
 }
 
 .line2 {
     width: 5px;
     height: 12rem;
-    background: #FFEFD5;
+    background: #ffefd5;
     margin: -16rem 6rem;
 }
 
 .line3 {
     width: 2px;
     height: 13rem;
-    background: #E9967A;
+    background: #e9967a;
     margin: -17rem 8rem;
+}
+
+.list {
+    margin: -19rem 10rem;
+}
+
+.list h4 {
+    padding: 2rem 0 2rem 0;
+    font-size: 1.7rem;
+}
+
+.list li {
+    list-style: none;
 }
